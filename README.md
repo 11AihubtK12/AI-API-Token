@@ -45,32 +45,43 @@
 ---
 
 ## 💰 套餐价格 / Pricing Plans
+All plans support cross-model usage, with tiered discounts for SVIP/VIP members.
+
 ### 体验套餐（新手测试）/ Trial Plan (New Users)
-- 额度 / Quota: 10W / 100,000 Tokens
-- 有效期 / Validity: 7 天 / 7 Days
-- 价格 / Price: ¥XX / $X
+- Token Quota: 100,000 Tokens
+- Validity: 7 Days
+- **Standard**: $2.5 (¥18)
+- **SVIP**: $2.1 (¥15)
+- **VIP**: $1.9 (¥13)
 
 ### 基础套餐（个人开发者）/ Basic Plan (Individual Developers)
-- 额度 / Quota: 50W / 500,000 Tokens
-- 有效期 / Validity: 30 天 / 30 Days
-- 价格 / Price: ¥XX / $X
+- Token Quota: 500,000 Tokens
+- Validity: 30 Days
+- **Standard**: $10 (¥70)
+- **SVIP**: $8.5 (¥60)
+- **VIP**: $7.5 (¥53)
 
 ### 高级套餐（小团队/工作室）/ Premium Plan (Small Teams)
-- 额度 / Quota: 200W / 2,000,000 Tokens
-- 有效期 / Validity: 30 天 / 30 Days
-- 价格 / Price: ¥XX / $X
+- Token Quota: 2,000,000 Tokens
+- Validity: 30 Days
+- **Standard**: $35 (¥245)
+- **SVIP**: $30 (¥210)
+- **VIP**: $26 (¥180)
 
 ### 企业定制套餐（生产环境）/ Enterprise Custom Plan (Production)
-- 独享线路 + 高并发 / Exclusive lines + High concurrency
-- 专属技术对接 / Dedicated technical support
-- 可开发票 / Invoicing available
-- 额度自定义 / Customizable quota
+- Custom quota & validity
+- Dedicated lines + high concurrency
+- Dedicated technical support & invoicing
+- **Contact us for a custom quote** (Bulk pricing available)
+
+> 注：实际消耗按模型单价计费，套餐额度为总Token数，可跨所有模型使用。
+> Note: Usage is billed per model rate; quota can be used across all supported models.
 
 ---
 
 ## 🧪 快速调用测试 / Quick API Test
 ### 接口地址 / API Endpoint
-`https://[https://aihubapi.xyz].com/v1`
+`https://aihubapi.xyz.com/v1`
 
 ### API-Key
 购买后获取 / Provided after purchase
@@ -80,7 +91,7 @@
 import openai
 
 openai.api_key = "YOUR_TOKEN_KEY"
-openai.api_base = "https://[https://aihubapi.xyz].com/v1"
+openai.api_base = "https://aihubapi.xyz.com/v1"
 
 resp = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
