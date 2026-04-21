@@ -1,4 +1,4 @@
-# AI-API-Token / AI-API-令牌
+
 
 > 稳定且低延迟的AI API令牌销售 | OneAPI 中继接口 | 支持 GPT、Claude、Gemini 等主流大模型 | 高可用性、高并发性，专业的售后服务技术支持
 > Stable & Low-Latency AI API Token Sales | OneAPI Proxy | Support GPT, Claude, Gemini & More | High Availability, High Concurrency, Professional Support
@@ -8,16 +8,17 @@
 ## 📊 服务状态 / Service Status
 ![Status](https://img.shields.io/badge/Status-Stable-green)
 ![Uptime](https://img.shields.io/badge/Uptime-99.9%25-success)
-![Models](https://img.shields.io/badge/Models-20%2B-blueviolet)
-![Support](https://img.shields.io/badge/Support-24%2F7-orange)
+![模型](https://img.shields.io/badge/模型-20%2B-蓝紫色)
+![支持](https://img.shields.io/badge/支持-24%2F7-橙色)
 
-- 实时在线率 / Real-time Uptime: 99.9%
-- 平均延迟 / Average Latency: < 100ms
-- 线路 / Network: Premium Global Dedicated Lines
+- 实时在线率 / 实时运行率: 99.9%
+- 平均延迟 / 平均延迟: < 100毫秒
+- 线路 / 网络: 高端全球专用线路
 
 ---
 
-## ✨ 核心优势 / Core Advantages
+
+##✨ 核心优势 / Core Advantages
 - 兼容 OpenAI 标准格式，一键切换即可使用
 - 支持 GPT-3.5/4o/GPT-4V、Claude 3、Gemini 等主流模型
 - 高并发、不限速、风控宽松，稳定不掉线
@@ -25,38 +26,40 @@
 - 售后秒回，技术问题快速解决
 - 支持免费试用，先测后买
 
-> English:
-- Fully compatible with OpenAI standard API format, ready to use with one-click switch
-- Supports mainstream models: GPT-3.5/4o/GPT-4V, Claude 3, Gemini, and more
-- High concurrency, no speed limits, low risk of rate-limiting
-- Pay-as-you-go / Monthly plans / Custom enterprise solutions
-- Fast response & reliable technical support
-- Free trial available before purchase
+> 英语：
+- 完全兼容OpenAI标准API格式，一键即可使用
+- 支持主流模型：GPT-3.5/4o/GPT-4V，Claude 3，Gemini，等等
+- 高并发，无速度限制，低速率限制风险
+- 按需付费 / 月度计划 / 量身定制的企业解决方案
+- 快速响应和可靠的 technical 支持
+- 购买前可试用
 
 ---
 
-## 🚀 支持模型 / Supported Models
+
+## 🚀 支持模型 / 支持的模型
 - GPT-3.5-turbo / GPT-4o / GPT-4V
-- Claude 3 Sonnet / Opus
-- Gemini Pro / 1.5 Flash
-- 文生图 / Image Generation: Midjourney, Stable Diffusion
-- Embedding、TTS、Whisper 语音转文字 / Speech-to-Text
+- 克劳德 3 韵文 / 作品
+- Gemini Pro / 1.5 次闪
+- 文生图 / 图像生成: Midjourney, Stable Diffusion
+- 嵌入、TTS、Whisper 语音转文字 / 语音识别
 
 ---
 
-## 💰 套餐价格 / Pricing Plans
-All plans support cross-model usage, with tiered discounts for SVIP/VIP members.
 
-### 体验套餐（新手测试）/ Trial Plan (New Users)
-- Token Quota: 100,000 Tokens
-- Validity: 7 Days
-- **Standard**: $2.5 (¥18)
+## 💰 套餐价格 / 定价方案
+所有计划都支持跨模型使用，并为SVIP/VIP会员提供分层折扣。
+
+### 体验套餐（新手测试）
+- 代币配额：100,000 代币
+- 有效期：7天
+- **标准**: $2.5 (¥18)
 - **SVIP**: $2.1 (¥15)
 - **VIP**: $1.9 (¥13)
 
-### 基础套餐（个人开发者）/ Basic Plan (Individual Developers)
-- Token Quota: 500,000 Tokens
-- Validity: 30 Days
+### 基础套餐（个人开发者）
+- 代币配额：500,000 代币
+- 有效期：30天
 - **Standard**: $10 (¥70)
 - **SVIP**: $8.5 (¥60)
 - **VIP**: $7.5 (¥53)
@@ -80,8 +83,8 @@ All plans support cross-model usage, with tiered discounts for SVIP/VIP members.
 ---
 
 ## 🧪 快速调用测试 / Quick API Test
-### 接口地址 / API Endpoint
-`https://aihubapi.xyz.com/v1`
+###
+`
 
 ### API-Key
 购买后获取 / Provided after purchase
@@ -91,7 +94,7 @@ All plans support cross-model usage, with tiered discounts for SVIP/VIP members.
 import openai
 
 openai.api_key = "YOUR_TOKEN_KEY"
-openai.api_base = "https://aihubapi.xyz.com/v1"
+openai.api_base = "https://aihubapi.xyz/v1"
 
 resp = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
