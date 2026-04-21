@@ -1,24 +1,26 @@
 
 
 > 稳定且低延迟的AI API令牌销售 | OneAPI 中继接口 | 支持 GPT、Claude、Gemini 等主流大模型 | 高可用性、高并发性，专业的售后服务技术支持
-> Stable & Low-Latency AI API Token Sales | OneAPI Proxy | Support GPT, Claude, Gemini & More | High Availability, High Concurrency, Professional Support
+> 稳定且低延迟的AI API令牌销售 | OneAPI代理 | 支持GPT, Claude, Gemini等 | 高可用性，高并发性，专业支持
 
 ---
 
-## 📊 服务状态 / Service Status
-![Status](https://img.shields.io/badge/Status-Stable-green)
-![Uptime](https://img.shields.io/badge/Uptime-99.9%25-success)
+
+## 📊 服务状态
+![状态](https://img.shields.io/badge/状态-稳定-green)
+![正常运行时间](https://img.shields.io/badge/正常运行时间-99.9%25-成功)
 ![模型](https://img.shields.io/badge/模型-20%2B-蓝紫色)
 ![支持](https://img.shields.io/badge/支持-24%2F7-橙色)
 
 - 实时在线率 / 实时运行率: 99.9%
 - 平均延迟 / 平均延迟: < 100毫秒
-- 线路 / 网络: 高端全球专用线路
+-线路 / 网络: 高端全球专用线路
 
 ---
 
 
-##✨ 核心优势 / Core Advantages
+
+##✨ 核心优势 / 核心优势
 - 兼容 OpenAI 标准格式，一键切换即可使用
 - 支持 GPT-3.5/4o/GPT-4V、Claude 3、Gemini 等主流模型
 - 高并发、不限速、风控宽松，稳定不掉线
@@ -92,6 +94,8 @@
 购买后获取 / Provided after purchase
 
 ### Python 调用示例 / Python Example
+
+
 ```python
 import openai
 
@@ -102,4 +106,38 @@ resp = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
     messages=[{"role":"user","content":"你好 / Hello"}]
 )
+
+📞 购买与咨询 / Purchase & Support
+ 
+- Email: 3351759632@qq.com
+
+- 微信 / WeChat: aihubtk
+
+- 服务时间 / Support Hours: 09:00 – 24:00 (GMT+8)
+ 
+ 
+ 
+❓ 常见问题 / FAQ
+ 
+1. 购买后如何使用？/ How to use my token?
+ 
+替换 OpenAI 官方地址为我们的接口地址，填入 Token 即可直接调用。
+Replace the official OpenAI endpoint with our service address, then input your API key.
+ 
+2. 额度会过期吗？/ Will unused tokens expire?
+ 
+体验包 7 天，其余套餐 30 天，过期未使用自动清零。
+Trial plan valid for 7 days. All other plans valid for 30 days. Unused tokens expire after validity period.
+ 
+3. 出现 429 / 报错怎么办？/ What if I get 429 errors?
+ 
+联系客服，快速排查处理。
+Contact support for immediate troubleshooting.
+ 
+ 
+ 
+⚠️ 免责声明 / Disclaimer
+ 
+本服务仅用于学习、开发、合法商业用途。严禁用于违法、违规场景，违者封号不退费。
+This service is for legitimate development, learning, and legal commercial use only. Illegal usage is strictly prohibited. Violators will be suspended without refunds.
 print(resp)
