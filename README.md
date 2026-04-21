@@ -20,6 +20,7 @@
 
 
 
+
 ##✨ 核心优势 / 核心优势
 - 兼容 OpenAI 标准格式，一键切换即可使用
 - 支持 GPT-3.5/4o/GPT-4V、Claude 3、Gemini 等主流模型
@@ -28,7 +29,7 @@
 - 售后秒回，技术问题快速解决
 - 支持免费试用，先测后买
 
-> 英语：
+>英语：
 - 完全兼容OpenAI标准API格式，一键即可使用
 - 支持主流模型：GPT-3.5/4o/GPT-4V，Claude 3，Gemini，等等
 - 高并发，无速度限制，低速率限制风险
@@ -41,6 +42,7 @@
 
 
 
+
 ## 🚀 支持模型 / 支持的模型
 - GPT-3.5-turbo / GPT-4o / GPT-4V
 - 克劳德 3 韵文 / 作品
@@ -49,6 +51,7 @@
 - 嵌入、TTS、Whisper 语音转文字 / 语音识别
 
 ---
+
 
 
 
@@ -66,14 +69,14 @@
 ###基础套餐（个人开发者）
 - 代币配额：500,000 代币
 - 有效期：30天
-- **标准**: $10 (¥70)
+- **标准**: ¥10 (¥70)
 - **超级会员**: $8.5 (¥60)
 - **VIP**: $7.5 (¥53)
 
 ### 高级套餐（小团队/工作室）
 - 代币配额：200万 代币
 - 有效期：30天
-- **标准**: $35 (¥245)
+>**: $35 (¥245)
 - **SVIP**: $30 (¥210)
 - **VIP**: $26 (¥180)
 
@@ -109,7 +112,7 @@ resp = openai.ChatCompletion.create(
     messages=[{"role":"user","content":"你好 / Hello"}]
 )
 
-### 📞 购买与咨询 / Purchase & Support
+## 📞 购买与咨询 / Purchase & Support
  
 - Email: 3351759632@qq.com
 
@@ -119,7 +122,7 @@ resp = openai.ChatCompletion.create(
  
  
  
-### ❓ 常见问题 / FAQ
+## ❓ 常见问题 / FAQ
  
 1. 购买后如何使用？/ How to use my token?
  
@@ -138,7 +141,7 @@ Contact support for immediate troubleshooting.
  
  
  
-### ⚠️ 免责声明 / Disclaimer
+## ⚠️ 免责声明 / Disclaimer
  
 本服务仅用于学习、开发、合法商业用途。严禁用于违法、违规场景，违者封号不退费。
 This service is for legitimate development, learning, and legal commercial use only. Illegal usage is strictly prohibited. Violators will be suspended without refunds.
