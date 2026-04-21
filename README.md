@@ -40,6 +40,7 @@
 
 
 
+
 ## 🚀 支持模型 / 支持的模型
 - GPT-3.5-turbo / GPT-4o / GPT-4V
 - 克劳德 3 韵文 / 作品
@@ -51,6 +52,7 @@
 
 
 
+
 ## 💰 套餐价格 / 定价方案
 所有计划都支持跨模型使用，并为SVIP/VIP会员提供分层折扣。
 
@@ -58,20 +60,20 @@
 - 代币配额：100,000 代币
 - 有效期：7天
 - **标准**: ¥18
-- **SVIP**: $2.1 (¥15)
+- **超级会员**: $2.1 (¥15)
 - **VIP**: $1.9 (¥13)
 
 ###基础套餐（个人开发者）
 - 代币配额：500,000 代币
 - 有效期：30天
 - **标准**: $10 (¥70)
-- **SVIP**: $8.5 (¥60)
+- **超级会员**: $8.5 (¥60)
 - **VIP**: $7.5 (¥53)
 
 ### 高级套餐（小团队/工作室）
-- 代币配额：2,000,000 代币
+- 代币配额：200万 代币
 - 有效期：30天
-- **Standard**: $35 (¥245)
+- **标准**: $35 (¥245)
 - **SVIP**: $30 (¥210)
 - **VIP**: $26 (¥180)
 
@@ -86,7 +88,7 @@
 
 ---
 
-## 🧪 快速调用测试 / Quick API Test
+
 ### https://aihubapi.xyz/v1
 `
 
@@ -107,7 +109,7 @@ resp = openai.ChatCompletion.create(
     messages=[{"role":"user","content":"你好 / Hello"}]
 )
 
-📞 购买与咨询 / Purchase & Support
+### 📞 购买与咨询 / Purchase & Support
  
 - Email: 3351759632@qq.com
 
@@ -117,7 +119,7 @@ resp = openai.ChatCompletion.create(
  
  
  
-❓ 常见问题 / FAQ
+### ❓ 常见问题 / FAQ
  
 1. 购买后如何使用？/ How to use my token?
  
@@ -136,7 +138,7 @@ Contact support for immediate troubleshooting.
  
  
  
-⚠️ 免责声明 / Disclaimer
+### ⚠️ 免责声明 / Disclaimer
  
 本服务仅用于学习、开发、合法商业用途。严禁用于违法、违规场景，违者封号不退费。
 This service is for legitimate development, learning, and legal commercial use only. Illegal usage is strictly prohibited. Violators will be suspended without refunds.
