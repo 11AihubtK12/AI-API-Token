@@ -6,6 +6,7 @@
 ---
 
 
+
 ## 📊 服务状态
 ![状态](https://img.shields.io/badge/状态-稳定-green)
 ![正常运行时间](https://img.shields.io/badge/正常运行时间-99.9%25-成功)
@@ -17,6 +18,7 @@
 -线路 / 网络: 高端全球专用线路
 
 ---
+
 
 
 
@@ -43,6 +45,7 @@
 
 
 
+
 ## 🚀 支持模型 / 支持的模型
 - GPT-3.5-turbo / GPT-4o / GPT-4V
 - 克劳德 3 韵文 / 作品
@@ -51,6 +54,7 @@
 - 嵌入、TTS、Whisper 语音转文字 / 语音识别
 
 ---
+
 
 
 
@@ -112,6 +116,12 @@ resp = openai.ChatCompletion.create(
     messages=[{"role":"user","content":"你好 / Hello"}]
 )
 
+
+---
+
+
+
+
 ## 📞 购买与咨询 / Purchase & Support
  
 - Email: 3351759632@qq.com
@@ -119,9 +129,13 @@ resp = openai.ChatCompletion.create(
 - 微信 / WeChat: aihubtk
 
 - 服务时间 / Support Hours: 09:00 – 24:00 (GMT+8)
- 
- 
- 
+
+---
+
+
+
+
+
 ## ❓ 常见问题 / FAQ
  
 1. 购买后如何使用？/ How to use my token?
@@ -138,9 +152,13 @@ Trial plan valid for 7 days. All other plans valid for 30 days. Unused tokens ex
  
 联系客服，快速排查处理。
 Contact support for immediate troubleshooting.
- 
- 
- 
+
+---
+
+
+
+
+
 ## ⚠️ 免责声明 / Disclaimer
  
 本服务仅用于学习、开发、合法商业用途。严禁用于违法、违规场景，违者封号不退费。
